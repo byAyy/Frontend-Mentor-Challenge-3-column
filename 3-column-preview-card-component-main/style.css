@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    padding:  250px;
+}
+
+.card-1 {
+    background-color: hsl(31, 77%, 52%);
+    height: 450px;
+    width: 300px !important;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card-2 {
+    background-color: hsl(184, 100%, 22%);
+    height: 450px;
+    width: 300px !important;
+}
+
+.card-3 {
+    background-color: hsl(179, 100%, 13%);
+    height: 450px;
+    width: 300px !important;
+    border-radius: 0px 10px 10px 0px;
+}
+
+img {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+p {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: whitesmoke;
+    line-height: 2;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-bottom: 100px;
+}
+
+a {
+    background-color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 40px 40px 40px 40px;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.l1 {
+    color: hsl(31, 77%, 52%);
+    margin-left: 20px;
+}
+
+.l2 {
+    color: hsl(184, 100%, 22%);
+    margin-left: 20px;
+}
+
+.l3 {
+    color: hsl(179, 100%, 13%);
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        padding-left: 50px !important;
+    }
+
+    .card-1 {
+        background-color: hsl(31, 77%, 52%);
+        height: 450px;
+        width: 300px !important;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .card-3 {
+        background-color: hsl(179, 100%, 13%);
+        height: 450px;
+        width: 300px !important;
+        border-radius: 0px 0px 10px 10px;
+    }
+}
